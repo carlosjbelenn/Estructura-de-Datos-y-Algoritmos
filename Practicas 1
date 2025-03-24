@@ -8,3 +8,27 @@ area = largo * ancho
 
 # Mostrar el resultado
 print(f"El área del rectángulo es: {area}")
+
+# EJERCICIO 2
+# Solicitar al usuario la temperatura en Celsius
+celsius = float(input("Ingresa la temperatura en grados Celsius: "))
+
+# Convertir a Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Mostrar el resultado
+print(f"{celsius}°C equivale a {fahrenheit}°F")
+
+# EJERCICIO 3
+
+#Introduccion de los valores
+
+# Definir dos números complejos
+num1 = complex(3, 4)  # 3 + 4j
+num2 = complex(1, 2)  # 1 + 2j
+
+# Sumar los números complejos
+resultado = num1 + num2
+
+# Mostrar el resultado
+print(f"La suma de {num1} y {num2} es: {resultado}")
